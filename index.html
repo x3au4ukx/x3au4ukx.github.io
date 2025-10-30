@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Мое портфолио</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python-разработчик | Портфолио</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .project {
+            background: #f5f5f5;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background: #007acc;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 15px;
+            font-size: 14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Привет! Я Python-разработчик</h1>
-    <p>Мои проекты:</p>
-    <ul>
-        <li><a href="ссылка-на-блогикум">Блогикум</a></li>
-        <li><a href="ссылка-на-бота">Telegram Bot</a></li>
-    </ul>
+    <header>
+        <h1>🚀 Python-разработчик</h1>
+        <p>Создаю качественный бэкенд на Django, REST API и автоматизирую процессы</p>
+    </header>
+
+    <section>
+        <h2>🛠 Технологии</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Django</span>
+            <span class="skill">Django REST Framework</span>
+            <span class="skill">REST API</span>
+            <span class="skill">Git</span>
+            <span class="skill">Pytest</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>📂 Мои проекты</h2>
+
+        <div class="project">
+            <h3>🤖 Telegram Bot Assistant</h3>
+            <p>Бот для автоматического отслеживания статуса домашних работ через API Яндекс.Практикума</p>
+            <p><strong>Технологии:</strong> Python, Requests, python-telegram-bot, логирование</p>
+            <a href="https://github.com/x3au4ukx/...">🔗 Код на GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>🌐 Yatube REST API</h3>
+            <p>Полноценное REST API для социальной сети с аутентификацией и CRUD операциями</p>
+            <p><strong>Технологии:</strong> Django REST Framework, Token Authentication, ViewSets</p>
+            <a href="https://github.com/x3au4ukx/...">🔗 Код на GitHub</a>
+        </div>
+
+        <div class="project">
+            <h3>📝 Блогикум - Полный цикл разработки</h3>
+            <p>Блог-платформа с поэтапной разработкой через 3 спринта</p>
+
+            <div style="margin-left: 20px;">
+                <h4>Этапы разработки:</h4>
+                <ul>
+                    <li><strong>Спринт 1:</strong> Базовая структура, FBV, шаблоны</li>
+                    <li><strong>Спринт 2:</strong> Модели, БД, админ-панель</li>
+                    <li><strong>Спринт 3:</strong> CBV, пользователи, комментарии, API</li>
+                </ul>
+            </div>
+
+            <p><strong>Технологии:</strong> Django, REST API, аутентификация</p>
+            <a href="https://github.com/x3au4ukx/blogicum">🔗 Все части проекта на GitHub</a>
+        </div>
+    </section>
+
+    <section>
+        <h2>📞 Контакты</h2>
+        <p>📧 Email: 3au4ukob@gmail.com</p>
+        <p>💼 GitHub: <a href="https://github.com/x3au4ukx">github.com/x3au4ukx</a></p>
+        <p>👔 HH.ru: <a href="https://chelyabinsk.hh.ru/resume/5f33344bff0f8c24f40039ed1f556a565a3266?hhtmFrom=resume_list">Резюме на HH</a></p>
+    </section>
 </body>
 </html>
